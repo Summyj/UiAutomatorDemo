@@ -12,5 +12,5 @@
 - 语言：Kotlin
 - IDE: Android Studio
 
-详细教程请看系列文章：https://jmyblog.top/ui-automator-test/
+详细教程请看[系列文章](https://jmyblog.top/ui-automator-test/)
 
