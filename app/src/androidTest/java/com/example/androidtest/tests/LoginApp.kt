@@ -13,6 +13,9 @@ class LoginApp{
     private val loginPage: LoginPage = LoginPage()
     private val email: String? = System.getenv("TEST_ACCOUNT")
     private val password: String? = System.getenv("TEST_PASSWORD")
+//    run in local:
+//    private val email: String? = System.getenv("TEST_ACCOUNT") ?: "test@test.com"
+//    private val password: String? = System.getenv("TEST_PASSWORD") ?: "Test123456"
 
     @Before
     fun openApp() {
