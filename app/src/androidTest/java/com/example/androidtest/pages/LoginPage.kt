@@ -11,13 +11,13 @@ class LoginPage{
         loginSelector.loginPage(device).click()
     }
 
-    fun login(device: UiDevice, email: String, password: String) {
+    fun login(device: UiDevice, email: String?, password: String?) {
         loginSelector.email(device).text = email
         loginSelector.password(device).text = password
         loginSelector.loginButton(device).click()
     }
 
-    fun signUp(device: UiDevice, email: String, password: String) {
+    fun signUp(device: UiDevice, email: String?, password: String?) {
         loginSelector.signUpTab(device).click()
         loginSelector.email(device).text = email
         loginSelector.password(device).text = password

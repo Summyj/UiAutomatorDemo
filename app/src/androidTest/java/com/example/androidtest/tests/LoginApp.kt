@@ -11,8 +11,8 @@ class LoginApp{
     private lateinit var device: UiDevice
     private val basePage: BasePage = BasePage()
     private val loginPage: LoginPage = LoginPage()
-    private val email: String = System.getenv("TEST_ACCOUNT")
-    private val password: String = System.getenv("TEST_PASSWORD")
+    private val email: String? = System.getenv("TEST_ACCOUNT")
+    private val password: String? = System.getenv("TEST_PASSWORD")
 
     @Before
     fun openApp() {
